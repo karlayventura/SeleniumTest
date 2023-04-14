@@ -1,0 +1,49 @@
+* Selenium Class 2
+
+* What is a WebElement ?
+- Anything we see on the web page is considered to be a WebElement
+- e.g buttons, textboxes, checkboxes, links
+
+* What is HTML ?
+- Stands for Hyper text mark language
+- USED for web paged only
+
+* What is DOM ? (right click & inspect)
+- Stands for Document Object Model
+- It is the browser's internal view of the webpage.
+- Also called as developer's tools or dev tools
+----- BREAKDOWN OF DOM -----
+* Document = Can be stored any document such as pdf, excel etc
+* Object = Any line in HTML is considered as object
+* Model = It is just a layout of the HTML
+
+* What is a Locator ?
+- Is an address or a position of an WebElement on the web page.
+- Is used to locate or identify WebElement on the web page.
+
+* 8 locators :
+1) ID
+2) Name
+3) TagName
+4) Xpath
+5) LinkText
+6) PartialLinkText
+7) CSS Selector
+8) ClassName
+
+* HTML Scripting Meaning
+- Purple: Tags (button, input, div)
+- Brown: Attributes (name,class,id) * Also a locator *
+- Blue: Attribute values
+- <a = link
+
+* Why do we need many locators ?
+- Developers may not provide all the locators for all the elements
+- Some locators may have duplicate values in different nodes
+- Some locators may not be applicable for the elements we are looking for
+e.g linkText & partialLinkText are only used for links
+
+* "a" tag is also called an anchor tag
+
+* If 2 or more elements have same attributes & attribute values,
+  Selenium will only interact with the 1st element it locates

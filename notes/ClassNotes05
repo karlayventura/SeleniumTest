@@ -1,0 +1,38 @@
+* Selenium Class 5
+
+* Handling Checkboxes & RadioButtons:
+- If you have only 1 checkbox or radiobutton = You can just click on it.
+- If you have multiple choices = Store them in list & loop through.
+
+* DropDowns:
+- Is a menu which gives us an opportunity to select 1 or more options.
+
+* Types of DropDowns:
+1. Single Select
+2. Multiple select
+
+* Handling DropDowns:
+1. Click on dropdown & click on the option
+2. Using Select Class
+
+* Select class:
+- In order to use select class, we need to make sure our dropdown
+  has select tag.
+
+* Selecting an option from a dropdown can be done in 3 ways:
+1. By index
+2. By visible text
+3. By value
+
+
+**isMultiple()** boolean
+– Tells whether the SELECT element support multiple selecting options at the same time or not.
+
+* In order to deselect any option in drop-down:
+- Make sure your DD is multiple selection.
+METHODS =
+deselectByValue()
+deselectByVisibleText()
+deselectByIndex()
+deselectAll()
+

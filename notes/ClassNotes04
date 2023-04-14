@@ -1,0 +1,59 @@
+* Selenium Class 4
+
+* CSS Selector: (Cascading style sheet )
+- Another way of locating elements on the web page.
+
+* SYNTAX: tagName[attribute = 'attribute value']
+* EXAMPLE: button[type = 'submit']
+
+* RULES:
+- Does not allow you to locate the element by it's text.
+
+***** Shortcuts for CSS *****
+
+- ClassName: "." (period)
+* SYNTAX: tagname.classNameValue
+* EXAMPLE: input.button
+
+- ID: "#" (hash)
+* SYNTAX: tagname#IDValue
+* EXAMPLE: input#twotabsearchtextbox
+
+***** Identify elements using CSS Selector *****
+
+- Contains() method in css:
+* "*" (star) symbol represents contains method
+* SYNTAX: tagname[attribute *= 'attribute value']
+* EXAMPLE: input[placeholder *= 'Email']
+
+- Starts-with method in css:
+* "^" (circumflex) symbol represents starts with method.
+* SYNTAX: tagname[attribute ^= 'starting attribute value']
+* EXAMPLE: input[type ^= 'pass']
+
+- Ends-with method in css:
+* "$" (dollar sign) symbol represents starts with method.
+* SYNTAX: tagname[attribute $= 'ending attribute value']
+* EXAMPLE: img[src $= 'syntax.png']
+
+*** XPATH VS CSS ***
+- CSS: cannot locate the elements by text    - XPATH: you can located elements by text
+- CSS: has ends-with method                  - XPATH: does not have ends-with method
+- CSS: is faster at finding elements         - XPATH: is slower at finding elements
+- CSS: has shortcuts                         - XPATH: does not have shortcuts
+- CSS: has no advantages                     - XPATH: does have advantages using parent,child,sibling relationship
+- CSS: has more simple syntax                - XPATH: has more difficult syntax
+
+*** WebElement Commands:
+- Consists of several methods where we can perform an action & get the element state on the webpage.
+
+Methods:
+- isEnable() : boolean value
+- isDisplayed() : boolean value
+- isSelected() : boolean value
+- clear() : void
+- getText() : String value
+- getAttribute() : String value
+- submit() : void
+
+

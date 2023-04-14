@@ -1,0 +1,75 @@
+* Selenium Class 1
+
+* What is software testing ?
+- Identify the correctness & quality of the application.
+
+* How many ways can we actually test ?
+1) Manual
+2) Automation
+
+* When do we go for automation ?
+- After manual testing is passed
+- When environment is stable (Test environment)
+- Analyze our test suite & choose our automation tools.
+
+* What automation tools do we know about ?
+- Selenium (MOST POPULAR)
+- TestNG
+- Cucumber
+- Katalon Studio
+- UFT/QTP
+
+* Level of testing ?
+- Unit testing (devs environment)
+- Integration testing (Test environment)
+- Acceptance testing (clients environment)
+- System testing (Managers environment)
+
+* Types of Testing ?
+- Functional Testing
+- Non-Functional Testing
+   > Performance testing:
+   > Security testing:
+
+
+* What is selenium ?
+- A set of tools which helps us to automate web application.
+- It is mainly used to perform functional testing.
+
+* Selenium Components:
+- Selenium IDE -> Integrated development environment
+- Selenium Grid -> Firefox plugin
+- Selenium WebDriver -> will be using at work
+- Selenium RC -> Remote Control
+
+* What is Selenium WebDriver ?
+- Open source automation tool, Which allows us to perform action on a web application.
+     (Free is -> Open source in tech world)
+- WebDriver is an Interface.
+
+* Advantages of Selenium WebDriver :
+- Open source = Free
+- Works with different browsers & supports cross browsing testing
+- Works with different programming languages = Java, JavaScript, Ruby, Python
+- OS independent = iOS, Windows, Linux
+
+* Disadvantages of Selenium WebDriver :
+- Cannot test desktop applications
+- No technical support
+- No built in reports
+- Cannot test captchas(are you a robot, verify the traffic light), images or videos
+
+* get() VS navigate() :
+- navigate() = Can go back & forward & refresh
+- get() = Will wait for the page to fully load
+- navigate() = will not wait for the page to fully load
+- get() = will NOT keep the history of the browser
+- navigate() = will keep the history of browser
+
+* close() VS quit() :
+- close() = will close the current tab
+- quit() = will quit the whole browser
+
+* fullscreen() VS maximize() :
+- maximize() = will maximize the browser & will be able to see the control panel (back & forward, bookmarks)
+- fullscreen() = will maximize the whole application
